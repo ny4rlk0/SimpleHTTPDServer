@@ -1,3 +1,5 @@
+#Coded by Nyarlko in 3.3.2021
+#It's unsecure!!!
 import os,sys
 import tkinter as ui
 from tkinter import messagebox as mb
@@ -18,7 +20,7 @@ def donate():
     newWindow = ui.Toplevel(window)
     newWindow.geometry("525x275")
     newWindow.resizable(0,0)
-    labelExample = ui.Label(newWindow, text = "Any amount is appreciated.")
+    labelExample = ui.Label(newWindow, text = "Any amount is appreciated. @nyarlko")
     donatee = ui.Text(newWindow)
     labelExample.pack()
     donatee.pack()
